@@ -19,6 +19,9 @@ public class Ejemplo06 {
         for (int i = 0; i < valor1.length; i++) {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(valor1[i], valor2[i]));
+            /*
+            Imprime los datos que estan siendo llamados a la misma vez
+            */
         }
         
         for (int i = 0; i < valor1.length; i++) {
@@ -26,6 +29,10 @@ public class Ejemplo06 {
             int num2 = valor2[i];
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(num1, num2));
+            /*
+            declara los valores es decir en donde inician y luego los vuelve a
+            imprimir 
+            */
         }
         
         for (int i = 0; i < valor1.length; i++) {
@@ -33,6 +40,9 @@ public class Ejemplo06 {
             int num2 = valor2[i];
             int suma = obtenerSuma(num1, num2); 
             System.out.printf("El valor es: %d\n", suma);
+            /*
+            declara los valores, decalara la funcion y luego presenta 
+            */
         }
         
         
